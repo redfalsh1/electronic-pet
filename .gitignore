@@ -1,41 +1,63 @@
-# Prerequisites
-*.d
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.vcxproj*
+*.sln
+build/
+bin/
+lib/
+obj/
 
-# Compiled Object files
-*.slo
-*.lo
+# Qt
+*.moc
+*.ui_
+qrc_*.cpp
+Makefile.Debug
+Makefile.Release
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.tlog
+*.lastbuildstate
+ipch/
+
+# Compilers
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# debug information files
-*.dwo
+# Testing
+Testing/
+TestResults.xml
+*.gcov
+*.gcda
+*.gcno
+
+# Dependencies
+vcpkg_installed/
+conan/
+deps/
+
+# Logs
+*.log
