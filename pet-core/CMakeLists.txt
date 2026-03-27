@@ -12,21 +12,21 @@ option(PET_CORE_BUILD_TESTS "Build tests" OFF)
 
 # 源文件
 set(PET_CORE_SOURCES
-    pet.cpp
-    pointsystem.cpp
-    exchangesystem.cpp
-    datamanager.cpp
-    gdsii/gdsii_parser.cpp
+    src/pet.cpp
+    src/pointsystem.cpp
+    src/exchangesystem.cpp
+    src/datamanager.cpp
+    src/gdsii/gdsii_parser.cpp
 )
 
 # 头文件
 set(PET_CORE_HEADERS
-    pet.h
-    pointsystem.h
-    exchangesystem.h
-    datamanager.h
-    gdsii/gdsii_parser.h
-    gdsii/gdsii_types.h
+    include/pet.h
+    include/pointsystem.h
+    include/exchangesystem.h
+    include/datamanager.h
+    include/gdsii/gdsii_parser.h
+    include/gdsii/gdsii_types.h
 )
 
 # 创建库
@@ -35,7 +35,7 @@ add_library(pet_core STATIC ${PET_CORE_SOURCES} ${PET_CORE_HEADERS})
 # 包含目录
 target_include_directories(pet_core
     PUBLIC
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
 
