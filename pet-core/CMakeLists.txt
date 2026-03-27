@@ -16,6 +16,7 @@ set(PET_CORE_SOURCES
     pointsystem.cpp
     exchangesystem.cpp
     datamanager.cpp
+    gdsii/gdsii_parser.cpp
 )
 
 # 头文件
@@ -24,6 +25,8 @@ set(PET_CORE_HEADERS
     pointsystem.h
     exchangesystem.h
     datamanager.h
+    gdsii/gdsii_parser.h
+    gdsii/gdsii_types.h
 )
 
 # 创建库
