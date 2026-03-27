@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>styles/dark_theme.qss</file>
+        <file>images/pet_egg.png</file>
+        <file>images/pet_baby.png</file>
+        <file>images/pet_child.png</file>
+        <file>images/pet_teen.png</file>
+        <file>images/pet_adult.png</file>
+        <file>images/pet_elder.png</file>
+        <file>images/food_icon.png</file>
+        <file>images/prop_icon.png</file>
+    </qresource>
+</RCC>

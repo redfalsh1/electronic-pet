@@ -1,0 +1,26 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/images">
+        <!-- 宠物图片占位符 -->
+        <file>images/pet_placeholder.png</file>
+        
+        <!-- 粮食图片占位符 -->
+        <file>images/food_placeholder.png</file>
+        
+        <!-- 道具图片占位符 -->
+        <file>images/prop_placeholder.png</file>
+        
+        <!-- 背景图片 -->
+        <file>images/background.png</file>
+        
+        <!-- 图标资源 -->
+        <file>images/icon_score.png</file>
+        <file>images/icon_food.png</file>
+        <file>images/icon_exp.png</file>
+    </qresource>
+    
+    <qresource prefix="/styles">
+        <!-- 样式表文件 -->
+        <file>styles/dark_theme.qss</file>
+    </qresource>
+</RCC>
