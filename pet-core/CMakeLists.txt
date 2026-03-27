@@ -85,6 +85,9 @@ if(PET_CORE_BUILD_TESTS)
     add_subdirectory(tests)
 endif()
 
+# 默认启用测试构建
+option(PET_CORE_BUILD_TESTS "Build tests" ON)
+
 # 导出包配置
 include(CMakePackageConfigHelpers)
 
